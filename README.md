@@ -5,5 +5,5 @@ This replaces the text on the save menus with versions used in more recent games
 
 # Credits
 
-* [Atlus] for making Persona 3 FES.
-* [darkitxu84] for helping me with making pnach files.
+* Atlus for making Persona 3 FES.
+* darkitxu84 for helping me with making pnach files.
