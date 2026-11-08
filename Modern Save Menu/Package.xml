@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Modern Save Menu</name>
+  <id>kiseki.modernsavemenu</id>
+  <author>Kiseki</author>
+  <version />
+  <link>https://gamebanana.com/mods/716477</link>
+  <description>Replaces text on save menus with more recent versions.</description>
+  <skippedVersion>all</skippedVersion>
+</Metadata>

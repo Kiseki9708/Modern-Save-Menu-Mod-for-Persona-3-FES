@@ -1,0 +1,59 @@
+gametitle=Persona 3 FES [SLUS-21621] [NTSC-U] [94A82AAA]
+
+//replace "Checking memory card (8MB)(for PlayStation®2)..." with "Checking save data..."
+patch=1,EE,6b3860,bytes,436865636b696e6700000000
+patch=1,EE,6b3880,bytes,207361766520646174612e2e2e000000
+
+//replace "Saving data on memory card(for PS2) in MEMORY CARD slot 1" with "Saving data..."
+patch=1,EE,6b3500,bytes,0000
+patch=1,EE,6b3510,bytes,0000
+patch=1,EE,6b3730,bytes,0000
+patch=1,EE,6b3740,bytes,0000
+patch=1,EE,6b3750,bytes,0000
+patch=1,EE,6b3760,bytes,0000
+patch=1,EE,6b3770,bytes,536176696e672e2e2e200000
+patch=1,EE,6b3780,bytes,446f6e2774207475726e206f66660000
+patch=1,EE,6b37a0,bytes,74686520706f7765722e0000
+
+//replace "Create a new file on memory card (for PS2) in MEMORY CARD slot 1?" with "Create a new save file?"
+patch=1,EE,6b3620,bytes,4372656174652061206e657720736176652066696c653f00
+patch=1,EE,6b3640,bytes,0000
+patch=1,EE,6b3660,bytes,0000
+
+//replace "No memory card (for PS2) inserted in MEMORY CARD slot 1." with "No storage device found."
+patch=1,EE,6b33f0,bytes,4e6f2073746f726167652064657669636520666f756e642e
+patch=1,EE,6b3410,bytes,0000
+
+//replace "The memory card (for PS2) in MEMORY CARD slot 1 is unformatted. Format?" with "The storage device is unformatted. Format?"
+patch=1,EE,6b3440,bytes,0000
+patch=1,EE,6b3460,bytes,5468652073746f7261676520646576696365206973
+patch=1,EE,6b3480,bytes,756e666f726d61747465642e20466f726d61743f
+
+//replace "Formatting memory card (for PS2) in MEMORY CARD slot 1. Do not remove memory card (for PS2) or controller, or reset/switch off console." with "Formatting..."
+patch=1,EE,6b34b0,bytes,0000
+patch=1,EE,6b34c0,bytes,0000
+patch=1,EE,6b34e0,bytes,0000
+patch=1,EE,6b34f0,bytes,0000
+patch=1,EE,6b3500,bytes,0000
+patch=1,EE,6b3510,bytes,0000
+patch=1,EE,6b3520,bytes,0000
+patch=1,EE,6b3530,bytes,0000
+patch=1,EE,6b3540,bytes,466f726d617474696e672e2e2e000000
+patch=1,EE,6b3550,bytes,446f6e2774207475726e206f66660000
+patch=1,EE,6b3560,bytes,74686520706f7765722e0000
+
+//replace "Insufficient free space on MEMORY CARD slot 1. At least 78kb of free space is needed to save data" with "Insufficient free space. At least 78kb of free space is needed to save data."
+patch=1,EE,6b3690,bytes,0000
+patch=1,EE,6b36a0,bytes,496e73756666696369656e7420667265652073706163652e
+patch=1,EE,6b36b0,bytes,0000
+patch=1,EE,6b36c0,bytes,0000
+patch=1,EE,6b36d0,bytes,4174206c656173742037386b62206f66
+patch=1,EE,6b36e0,bytes,66726565207370616365
+patch=1,EE,6b36f0,bytes,6973206e656564656420746f207361766520646174612e
+patch=1,EE,6b3700,bytes,0000
+
+//replace "In order to save, you need a MEMORY CARD with at least 78kb of free space." with "In order to save, you need at least 78kb of free space."
+patch=1,EE,6b38c0,bytes,6174206c656173742037386b62206f66
+patch=1,EE,6b38d0,bytes,667265652073706163652e
+patch=1,EE,6b38e0,bytes,0000
+patch=1,EE,6b38f0,bytes,0000
